@@ -21,7 +21,7 @@
 }
 
 html{
-    font-size: 16px;
+    /* font-size: 16px; */
     scroll-behavior: smooth;
 }
 
@@ -54,15 +54,15 @@ nav{
 
 nav img{
     margin-left: 4rem;
-    width: 15rem;
-    height: 2.5rem;
+    width: 12rem;
+    height: 2rem;
 }
 
 nav .btn{
     margin-right: 2rem;
     font-size: 1rem;
     font-weight: 900;
-    padding: 0.9rem 4rem;
+    padding: 0.8rem 3rem;
     border-radius:23rem;
     border: 2px solid rgb(238, 232, 232);
     box-shadow: 2px 2px 1px #fff;
@@ -81,12 +81,12 @@ nav .btn{
     flex: 55%;
 }
 .section-1-left h1{
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     letter-spacing: 1px;
     margin-bottom: 2rem;
 }
 .section-1-left p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
 }
 .section-1-left button{
@@ -94,7 +94,7 @@ nav .btn{
     font-weight: 900;
     background-color: rgb(223, 70, 185);
     color:#fff;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     border-radius:23rem;
     border: 2px solid #fff;
 }
@@ -107,23 +107,23 @@ nav .btn{
     display:flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #fff;
+    border: 2px solid var(--clr-pink);
     margin-top: 9rem;
     margin-left: 6rem;
     margin-right: 4rem;
     border-radius: 20px;
-    box-shadow: 2px 2px 20px rgb(212, 208, 208);
+    box-shadow: 2px 2px 20px var(--clr-pink);
 }
 .section-2-left{
     margin-left: 8rem;
     margin-right: 10rem;
 }
 .section-2-left h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
 }
 .section-2-left p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .section-2-right{
@@ -136,12 +136,12 @@ nav .btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #fff;
+    border: 2px solid var(--clr-pink);
     margin-top: 3rem;
     margin-left: 6rem;
     margin-right: 4rem;
     border-radius: 20px;
-    box-shadow: 2px 2px 20px rgb(212, 208, 208);
+    box-shadow: 2px 2px 20px var(--clr-pink);
 }
 .section-3-left{
     margin-left: 8rem;
@@ -154,34 +154,34 @@ nav .btn{
     margin-right: 1.5rem;
 }
 .section-3-right h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
 }
 .section-3-right p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .section-4{
     display:flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #fff;
+    border: 2px solid var(--clr-pink);
     margin-top: 3rem;
     margin-left: 6rem;
     margin-right: 4rem;
     border-radius: 20px;
-    box-shadow: 2px 2px 20px rgb(212, 208, 208);
+    box-shadow: 2px 2px 20px var(--clr-pink);
 }
 .section-4-left{
     margin-left: 8rem;
     margin-right: 10rem;
 }
 .section-4-left h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
 }
 .section-4-left p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .section-4-right{
@@ -195,10 +195,10 @@ nav .btn{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid #fff;
-    box-shadow: 2px 2px 20px gray;
+    border: 2px solid var(--clr-pink);
+    box-shadow: 2px 2px 20px var(--clr-pink);
     border-radius: 20px;
-    margin-top: 12rem;
+    margin-top: 10rem;
     margin-left: 25%;
     position: absolute;
     z-index: 10;
@@ -206,7 +206,7 @@ nav .btn{
 }
 
 .section-5 h1{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-top: 4rem;
     margin-bottom: 2.5rem;
     margin-left: 5rem;
@@ -214,11 +214,11 @@ nav .btn{
 }
 
 .section-5 button{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 900;
     background-color: rgb(223, 70, 185);
     color:#fff;
-    padding: 1.3rem 6rem;
+    padding: 1.3rem 5rem;
     border-radius:23rem;
     border: 2px solid #fff;
     margin-bottom: 2.5rem;
@@ -227,8 +227,8 @@ nav .btn{
 footer{
     background-color: var(--clr-dark);
     color: #fff;
-    height: 82vh;
-    margin-top: 22rem;
+    height: 83vh;
+    margin-top: 20rem;
     position: relative;
 }
 
@@ -236,10 +236,12 @@ footer{
     border: 2px solid orangered;
     margin-left: 6rem;
     padding-top: 10rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .footer-nav h1{
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 .footer-nav span{
@@ -250,6 +252,10 @@ footer{
     text-align: end;
     margin-right: 4rem;
     margin-top: 2rem;
+}
+
+.footer-footer p{
+    font-size: 0.7rem;
 }
 
 .footer-1{
@@ -263,7 +269,7 @@ footer{
     margin-bottom: 1rem;
     border: 2px solid red;
     width: 70%;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .footer-container .right{
     margin-left: 1rem;
@@ -276,7 +282,7 @@ footer{
     align-items: start;
     justify-content: space-between;
     width: 23.5%;
-    height: 12.5rem
+    height: 11rem
 }
 
 li{
@@ -286,14 +292,14 @@ li{
 
 .footer-2 a{
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
 .footer-3{
     border: 2px solid blueviolet;
     width: 33%;
-    height: 12rem;
+    height: 11rem;
     text-align: center;
 }
 
@@ -302,13 +308,13 @@ li{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
+    width: 29px;
+    height: 29px;
     border: 2px solid #fff;
     color:#fff;
-    font-size: 1.1rem;
-    padding: 3px;
-    margin-right: 10px;
+    font-size: 0.8rem;
+    padding: 4px;
+    /* margin-right: 10px; */
 }
 
 .footer-main{
@@ -338,7 +344,7 @@ button{
 
 @media (max-width:468px){
     .section-1{
-        height: 85vh;
+        height: 115vh;
     }
     
     nav{
@@ -348,15 +354,15 @@ button{
     
     nav img{
         margin-left: 1rem;
-        width: 5rem;
-        height: 1rem;
+        width: 8rem;
+        height: 1.2rem;
     }
     
     nav .btn{
         margin-right: 1rem;
         font-size: 10px;
         font-weight: 900;
-        padding: 10px 1.5rem;
+        padding: 7px 1.2rem;
         border-radius:11rem;
     }
     
@@ -365,25 +371,23 @@ button{
     }
     
     .section-1-left{
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
         text-align: center;
-        /* flex: 50%; */
+        flex: 50%;
     }
     .section-1-left h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         /* letter-spacing: 1px; */
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
     .section-1-left p{
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
     }
     .section-1-left button{
         font-size: 1rem;
         padding: 0.7rem 2rem;
-        border-radius:23rem;
-        border: 2px solid #fff;
         margin-bottom: 3rem;
     }
     
@@ -402,11 +406,11 @@ button{
         text-align: center;
     }
     .section-2-left h1{
-        /* font-size: 2rem; */
+        font-size: 1.5rem;
         /* margin-bottom: 1rem; */
     }
     .section-2-left p{
-        /* font-size: 1.2rem; */
+        font-size: 1rem;
     }
     
     .section-2-right{
@@ -428,11 +432,11 @@ button{
         margin: 2rem 2rem 6rem;
     }
     .section-3-right h1{
-        /* font-size: 2rem; */
+        font-size: 1.5rem;
         /* margin-bottom: 1rem; */
     }
     .section-3-right p{
-        /* font-size: 1.2rem; */
+        font-size: 1rem;
     }
     
     .section-4{
@@ -446,11 +450,11 @@ button{
         text-align: center;
     }
     .section-4-left h1{
-        /* font-size: 2rem; */
+        font-size: 1.5rem;
         /* margin-bottom: 1rem; */
     }
     .section-4-left p{
-        /* font-size: 1.2rem; */
+        font-size: 1rem;
     }
     
     .section-4-right{
@@ -466,21 +470,21 @@ button{
     }
     
     .section-5 h1{
-        font-size: 1.3rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
     
     .section-5 button{
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 1rem 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
     
     footer{
-        height: 73vh;
+        height: 90vh;
         margin-top: 16rem;
         /* position: relative; */
     }
@@ -492,11 +496,11 @@ button{
     }
     
     .footer-nav h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }
     .footer-nav span{
-        /* margin-left: 1.5rem; */
+        margin-left: 1rem;
     }
     
     .footer-footer{
@@ -513,10 +517,10 @@ button{
         margin-bottom: 1rem;
         border: 2px solid red;
         width: 97%;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .footer-container .right{
-        margin-left: 1rem;
+        margin-left: 0.9rem;
     }
     
     
@@ -529,7 +533,7 @@ button{
     }
     
     .footer-2 a{
-        /* font-size: 1.2rem; */
+        font-size: 0.9rem;
     }
     
     
@@ -540,16 +544,11 @@ button{
     }
     
     .footer-3 a{
-        /* display: inline-block;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        border: 2px solid #fff;
-        color:#fff;
-        font-size: 1.1rem;
-        padding: 3px; */
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+        padding: 2px; 
         /* margin-right: 10px; */
     }
     
