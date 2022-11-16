@@ -464,7 +464,7 @@ button{
     .section-5{
         border: 1px solid var(--clr-pink);
         box-shadow: 2px 2px 20px var(--clr-pink);
-        margin-top: 5rem;
+        margin-top: 4rem;
         margin-left: 2.5rem;
         margin-right:2.5rem;
     }
@@ -485,7 +485,7 @@ button{
     
     footer{
         height: 88vh;
-        margin-top: 16rem;
+        margin-top: 12rem;
         /* position: relative; */
     }
     
