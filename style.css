@@ -41,7 +41,7 @@ body{
     background-image: url("./images/bg-hero-desktop.svg");
     background-repeat: no-repeat;
     background-color: rgb(185, 234, 242);
-    height: 85vh;
+    height: 100vh;
 }
 
 nav{
@@ -344,7 +344,7 @@ button{
 
 @media (max-width:468px){
     .section-1{
-        height: 80vh;
+        height: 82vh;
     }
     
     nav{
@@ -465,8 +465,8 @@ button{
         border: 1px solid var(--clr-pink);
         box-shadow: 2px 2px 20px var(--clr-pink);
         margin-top: 6rem;
-        margin-left: 5rem;
-        margin-right:5rem;
+        margin-left: 2.8rem;
+        margin-right:2.8rem;
     }
     
     .section-5 h1{
@@ -484,7 +484,7 @@ button{
     }
     
     footer{
-        height: 90vh;
+        height: 88vh;
         margin-top: 16rem;
         /* position: relative; */
     }
@@ -510,12 +510,12 @@ button{
     }
     
     .footer-1{
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         width: 100%;
     }
     .footer-container{
         margin-bottom: 1rem;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 97%;
         font-size: 0.9rem;
     }
@@ -525,10 +525,10 @@ button{
     
     
     .footer-2{
-        border: 2px solid cyan;
+        /* border: 2px solid cyan; */
         justify-content: space-around;
         width: 100%;
-        height: 9.5rem;
+        height: 9.3rem;
         margin-top: 1rem;
     }
     
@@ -538,9 +538,9 @@ button{
     
     
     .footer-3{
-        border: 2px solid blueviolet;
+        /* border: 2px solid blueviolet; */
         width: 100%;
-        height: 3rem;
+        height: 2.8rem;
     }
     
     .footer-3 a{
